@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id:2,
       src:Face,
-      title:'Smart Based Attendance System',
+      title:'Smart Attendance System',
       href :"https://github.com/Mansi-Gupta11/Face_Detection_Based-_Attendance_System",
     },
 
