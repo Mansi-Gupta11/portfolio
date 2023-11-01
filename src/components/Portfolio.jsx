@@ -2,7 +2,7 @@ import React from 'react'
 import Face from "../assets/portfolio/Face.jpg";
 import Potato from "../assets/portfolio/Potato.jpg";
 import Spotify from "../assets/portfolio/Spotify.jpg";
-
+import {FaGithub} from 'react-icons/fa';
 
 
 const Portfolio = () => {
@@ -10,16 +10,22 @@ const Portfolio = () => {
     {
       id:1,
       src:Potato,
+      title:'Potato Leaf Disease Detection',
+      href:"https://github.com/Mansi-Gupta11/Potato_Leaf_Disease_Detection",
     },
 
     {
       id:2,
       src:Face,
+      title:'Smart Based Attendance System',
+      href :"https://github.com/Mansi-Gupta11/Face_Detection_Based-_Attendance_System",
     },
 
     {
       id:3,
       src:Spotify,
+      title:'Spotify Clone',
+      href:"https://github.com/Mansi-Gupta11/Spotify_Clone",
     },
 
   ]
@@ -46,7 +52,7 @@ const Portfolio = () => {
             px-12 sm:px-0">
 
         {
-          portfolios.map(({id,src})=>(
+          portfolios.map(({id,src,title,href})=>(
             
             
               <div key={id} className="shadow-md shadow-black rounded-lg">
@@ -54,9 +60,13 @@ const Portfolio = () => {
                 src={src} 
                 alt="" 
                 className="rounded-md duration-200 hover:scale-105"/>
-                <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+                <div className="flex flex-col items-center justify-center">
+                  <h1 className="font-bold  m-4 duration-200 hover:scale-105" >{title}</h1>
+                  <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-white text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" ${title.length < 15 ? 'mt-9' : ''} `}>
+                                Code <FaGithub size={30}></FaGithub>
+                                </a> 
+                  {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button> */}
+                  {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button> */}
   
                 </div>
               </div>
