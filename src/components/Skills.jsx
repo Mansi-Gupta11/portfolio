@@ -75,7 +75,8 @@ const Skills = () => {
     className="bg-gradient-to-b from-sky-900 to-black w-full h:auto md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col
       justify-center w-full  md:h-full text-white">
-        <p className="text-4xl font-bold inline border-b-4 border-cyan-950 p-2 ">
+        <div>
+        <p className="text-4xl font-bold  border-b-4 border-cyan-950 p-2 inline ">
             Skills
         </p>
 
@@ -83,6 +84,7 @@ const Skills = () => {
             These are the technologies I've worked with 
 
         </p>
+        </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
             {
                 skills.map(({id,src,title,style})=>(
