@@ -16,56 +16,56 @@ const Skills = () => {
         id:1,
         src:python,
         title:'Python',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:2,
         src:html,
         title:'HTML',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:3,
         src:css,
         title:'CSS',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:4,
         src:tailwind,
         title:'Tailwind',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:5,
         src:javascript,
         title:'JavaScript',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:6,
         src:react,
         title:'react',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:7,
         src:sql,
         title:'SQL',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     {
         id:8,
         src:github,
         title:'github',
-        style:'shadow-orange-500'
+        style:'shadow-yellow-400'
     },
 
     
