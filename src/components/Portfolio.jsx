@@ -62,8 +62,10 @@ const Portfolio = () => {
                   className="rounded-md duration-200 hover:scale-105" />
                 <div className="flex flex-col items-center justify-center">
                   <h1 className="font-bold  m-4 duration-200 hover:scale-105" >{title}</h1>
-                  <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-white text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" ${title.length < 15 ? 'mt-9' : ''} `}>
+                  <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-white text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" `}>
+                  {/* ${title.length < 15 ? 'mt-9' : ''} */}
                     Code <FaGithub size={30}></FaGithub>
+
                   </a>
                   {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button> */}
                   {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button> */}
