@@ -55,13 +55,13 @@ const Portfolio = () => {
             portfolios.map(({ id, src, title, href }) => (
 
 
-              <div key={id} className="shadow-md shadow-black rounded-lg">
+              <div key={id} className="shadow-md shadow-black hover:shadow-md hover:shadow-yellow-200 rounded-lg">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-105" />
+                  className="rounded-md duration-200 " />
                 <div className="flex flex-col items-center justify-center">
-                  <h1 className="font-bold  m-4 duration-200 hover:scale-105" >{title}</h1>
+                  <h1 className="font-bold  m-4 duration-200 " >{title}</h1>
                   <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-white text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" `}>
                   {/* ${title.length < 15 ? 'mt-9' : ''} */}
                     Code <FaGithub size={30}></FaGithub>
