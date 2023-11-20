@@ -3,7 +3,8 @@ import React from 'react'
 const About = () => {
     return (
         <div name="about" 
-        className="w-full h-auto md:h-screen bg-gradient-to-b from-sky-900 to-black text-white">
+        
+        className="bg-white text-black w-full h-auto md:h-screen dark:bg-gradient-to-b from-sky-900 to-black dark:text-white">
             <div className= " max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-3">
                     <p className="text-4xl font-bold inline border-b-4 border-cyan-950">About</p>
