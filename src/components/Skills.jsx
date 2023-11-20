@@ -16,65 +16,65 @@ const Skills = () => {
         id:1,
         src:python,
         title:'Python',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:2,
         src:html,
         title:'HTML',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:3,
         src:css,
         title:'CSS',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:4,
         src:tailwind,
         title:'Tailwind',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:5,
         src:javascript,
         title:'JavaScript',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:6,
         src:react,
         title:'react',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:7,
         src:sql,
         title:'SQL',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     {
         id:8,
         src:github,
         title:'github',
-        style:'shadow-yellow-400'
+        style:'shadow-blue-200'
     },
 
     
 ]
   return (
     <div name="skills"
-    className="bg-gradient-to-b from-sky-900 to-black w-full h:auto md:h-screen">
+    className="bg-white dark:bg-gradient-to-b from-sky-900 to-black w-full h:auto md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col
-      justify-center w-full  md:h-full text-white">
+      justify-center w-full  md:h-full dark:text-white">
         <div>
         <p className="text-4xl font-bold  border-b-4 border-cyan-950 p-2 inline ">
             Skills
