@@ -9,5 +9,6 @@ module.exports = {
       signature:["Great Vibes"],
     },
   },
+  darkMode: 'class',
   plugins: [],
 };
