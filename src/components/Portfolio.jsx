@@ -6,6 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 
 const Portfolio = () => {
+
   const portfolios = [
     {
       id: 1,
@@ -34,8 +35,9 @@ const Portfolio = () => {
 
   return (
     <div name="projects"
-      className=" bg-gradient-to-b from-black to-sky-900 w-full
-    text-white h-auto md:h-screen">
+   
+      className="bg-sky-100 dark:bg-gradient-to-b from-black to-sky-900 w-full
+    dark:text-white h-auto md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col
       justify-center w-full h-full">
         <div className="pb-8">
@@ -55,14 +57,14 @@ const Portfolio = () => {
             portfolios.map(({ id, src, title, href }) => (
 
 
-              <div key={id} className="shadow-md shadow-black hover:shadow-md hover:shadow-yellow-200  rounded-lg">
+              <div key={id} className="bg-white text-black dark:bg-gradient-to-b from-black to-sky-900 shadow-md shadow-black hover:shadow-md dark:hover:shadow-yellow-200  hover:shadow-black rounded-lg">
                 <img
                   src={src}
                   alt=""
                   className="rounded-md duration-200 " />
                 <div className="flex flex-col items-center justify-center">
                   <h1 className="font-bold  m-4 duration-200 " >{title}</h1>
-                  <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-white text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" `}>
+                  <a href={href} className={`flex   py-3 m-2  hover:scale-105  justify-center items-center w- text-black text-xl  hover:bg-cyan-950 hover:rounded-md hover:duration-500 ' target='_blank' rel="noreferrer" `}>
                   {/* ${title.length < 15 ? 'mt-9' : ''} */}
                     Code <FaGithub size={30}></FaGithub>
 
