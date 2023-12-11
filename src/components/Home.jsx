@@ -1,5 +1,5 @@
 import React from 'react'
-import Mansi from "../assets/mansi2.jpeg";
+import Mansi from "../assets/mansi.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
