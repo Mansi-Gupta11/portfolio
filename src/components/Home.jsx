@@ -1,5 +1,5 @@
 import React from 'react'
-import Mansi from "../assets/mansi.jpeg";
+import Mansi from "../assets/mansi4.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
 
 
                 <div>
-                    <img src={Mansi} alt="my portfolio " className="rounded-3xl   mx-auto w-2/3 md:w-6/12" />
+                    <img src={Mansi} alt="my portfolio " className="rounded-3xl   mb-1 mx-auto w-2/3 md:w-3/6" />
                 </div>
 
 
