@@ -14,7 +14,7 @@ const Home = () => {
                     <h2 className="text-3xl sm:text-5xl font-bold dark:text-white">Hey, I am Mansi Gupta</h2>
 
                     <p className="dark:text-white py-4 max-w-md">
-                       B.Tech in Computer Science Engineering
+                      Software Engineer
                     </p>
 
                     <div >
