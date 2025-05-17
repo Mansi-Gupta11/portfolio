@@ -5,6 +5,8 @@ import github from "../assets/skills/github.svg";
 import javascript from "../assets/skills/javascript.svg";
 import python from "../assets/skills/python.svg";
 import react from "../assets/skills/react.svg";
+import mongo from "../assets/skills/mongodb.png";
+import php from "../assets/skills/php.png";
 import sql from "../assets/skills/sql.svg";
 import tailwind from "../assets/skills/tailwind.svg";
 
@@ -69,6 +71,22 @@ const Skills = () => {
     },
 
     
+    {
+        id:9,
+        src:mongo,
+        title:'MongoDB',
+        style:'shadow-blue-200'
+    },
+
+    
+    {
+        id:10,
+        src:php,
+        title:'PHP',
+        style:'shadow-blue-200'
+    },
+
+    
 ]
   return (
     <div name="skills"
@@ -80,12 +98,12 @@ const Skills = () => {
             Skills
         </p>
 
-        <p className="py-6">
+        <p className="py-6">    
             These are the technologies I've worked with 
 
         </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
             {
                 skills.map(({id,src,title,style})=>(
 
